@@ -1,0 +1,41 @@
+usn{
+color:red;
+display:block;
+font-style:timesnewroman;
+font-size: 40px;
+}
+
+name{
+color:green;
+display:block;
+font-style:bold;
+font-size: 40px;
+}
+
+college{
+color:blue;
+display:block;
+font-style:arial;
+font-size: 30px;
+}
+
+branch{
+color:orange;
+display:block;
+font-style:caliber;
+font-size: 30px;
+}
+
+year{
+color:magenta;
+display:block;
+font-style:bookmanold;
+font-size: 30px;
+}
+
+email{
+color:cyan;
+display:block;
+font-style:italic;
+font-size: 30px;
+}

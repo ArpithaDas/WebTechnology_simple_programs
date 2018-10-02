@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PROGRAM 4</title>
+</head>
+<body>
+<script type="text/javascript">
+var str=prompt("enter the input ","");
+if(!(isNaN(str)))
+{
+var num,rev=0,remainder;
+num=parseInt(str);
+while(num!=0)
+{
+remainder=num%10;
+num=parseInt(num/10);
+rev=rev*10+remainder;
+}
+alert("reverse of "+str+" is "+rev);
+}
+else
+{
+str=str.toUpperCase();
+for(var i=0;i<str.length;i++)
+{
+var char=str.charAt(i);
+if(char=="A"||char=="E"||char=="I"||char=="O"||char=="U")
+{
+break;
+}
+}
+if(i<str.length)
+{
+alert("the position of left most vowel is "+(i+1));
+}
+else
+{
+alert("no vowel entering string");
+}
+}
+</script>
+</body>
+</html>
